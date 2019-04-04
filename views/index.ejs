@@ -9,7 +9,9 @@
 </style>    
 <h1>Cucc</h1>
 <table>
-<% x.forEach( v=> { -%><td><%-2*v%></td><% } ) -%>
+<? x.forEach( v=> { ?>
+    <td><?- 2*v ?></td>
+<? } ) ?>
 </table>
 </h1>
 <hr>
