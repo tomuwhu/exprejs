@@ -14,9 +14,13 @@
 </style>    
 <h2>Lottószámgenerátor</h2>
 <table>
-<? x.forEach( v=> { ?>
+<? x.forEach( v => { ?>
     <td><?- v ?></td>
 <? } ) ?>
 </table>
+<form method="POST" action="/">
+<hr>
+<button type="submit">Frissít</button> - <?- y ?>
+</form>
 </h1>
 <hr>
